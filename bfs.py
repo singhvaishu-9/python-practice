@@ -15,14 +15,14 @@ def bfs(graph,start):
                     visited.add(neighbor)
                     queue.append(neighbor)
                     
-                graph={
-                   'A':['B','C'],
-                   'B':['D','E'],
-                   'C':['F'],
-                   'D':[],
-                   'E':[],
-                   'F':[]
-               }     
-                print("BFS traversal:")
-                bfs(graph,'A')
+graph={
+ 'A':['B','C'],
+ 'B':['D','E'],                   
+'C':['F'],
+'D':[],
+'E':[],
+'F':[]
+}     
+print("BFS traversal:")
+bfs(graph,'A')
      
